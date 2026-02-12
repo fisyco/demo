@@ -1,4 +1,5 @@
-:root {
+:root
+{
   --token-gray-100: rgba(252, 252, 252, 1);
   --token-gray-200: rgba(249, 249, 249, 1);
   --token-gray-300: rgba(240, 240, 240, 1);
@@ -18,4 +19,76 @@
   --token-label-medium: {"fontSize":13,"fontFamily":"Inter","fontWeight":500,"lineHeightPx":18};
   --token-fill-primary: rgba(61, 148, 242, 1);
   --token-fill-muted: rgba(214, 217, 222, 1);
+}
+
+[data-theme="dark"]
+{
+  --token-gray-100: rgba(17, 17, 17, 1);
+  --token-gray-200: rgba(25, 25, 25, 1);
+  --token-gray-300: rgba(34, 34, 34, 1);
+  --token-violet-500: rgba(124, 58, 237, 1);
+  --token-rose-500: rgba(225, 29, 72, 1);
+  --token-foreground-default: rgba(226, 232, 240, 1);
+  --token-background-canvas: rgba(2, 6, 23, 1);
+  --token-accent-primary: rgba(5, 150, 105, 1);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontSize":32,"fontFamily":"Inter","fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontSize":16,"fontFamily":"Inter","fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontSize":13,"fontFamily":"Inter","fontWeight":500,"lineHeightPx":18};
+}
+
+[data-theme="dark"]
+{
+  --token-gray-100: rgba(17, 17, 17, 1);
+  --token-gray-200: rgba(25, 25, 25, 1);
+  --token-gray-300: rgba(34, 34, 34, 1);
+  --token-violet-500: rgba(124, 58, 237, 1);
+  --token-rose-500: rgba(225, 29, 72, 1);
+  --token-foreground-default: rgba(226, 232, 240, 1);
+  --token-background-canvas: rgba(2, 6, 23, 1);
+  --token-accent-primary: rgba(5, 150, 105, 1);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontSize":32,"fontFamily":"Inter","fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontSize":16,"fontFamily":"Inter","fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontSize":13,"fontFamily":"Inter","fontWeight":500,"lineHeightPx":18};
+}
+
+[data-theme="light"]
+{
+  --token-gray-100: rgba(252, 252, 252, 1);
+  --token-gray-200: rgba(249, 249, 249, 1);
+  --token-gray-300: rgba(240, 240, 240, 1);
+  --token-violet-500: rgba(99, 102, 241, 1);
+  --token-rose-500: rgba(244, 63, 94, 1);
+  --token-foreground-default: rgba(15, 23, 42, 1);
+  --token-background-canvas: rgba(248, 250, 252, 1);
+  --token-accent-primary: rgba(16, 185, 129, 1);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontSize":32,"fontFamily":"Inter","fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontSize":16,"fontFamily":"Inter","fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontSize":13,"fontFamily":"Inter","fontWeight":500,"lineHeightPx":18};
+}
+
+[data-theme="light"]
+{
+  --token-gray-100: rgba(252, 252, 252, 1);
+  --token-gray-200: rgba(249, 249, 249, 1);
+  --token-gray-300: rgba(240, 240, 240, 1);
+  --token-violet-500: rgba(99, 102, 241, 1);
+  --token-rose-500: rgba(244, 63, 94, 1);
+  --token-foreground-default: rgba(15, 23, 42, 1);
+  --token-background-canvas: rgba(248, 250, 252, 1);
+  --token-accent-primary: rgba(16, 185, 129, 1);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontSize":32,"fontFamily":"Inter","fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontSize":16,"fontFamily":"Inter","fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontSize":13,"fontFamily":"Inter","fontWeight":500,"lineHeightPx":18};
 }
