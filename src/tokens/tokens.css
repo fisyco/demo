@@ -1,0 +1,58 @@
+:root
+{
+  --token-gray-100: #FCFCFC;
+  --token-gray-200: #F9F9F9;
+  --token-gray-300: #F0F0F0;
+  --token-violet-500: #6366F1;
+  --token-rose-500: #F43F5E;
+  --token-foreground-default: var(--token-gray-300);
+  --token-background-canvas: var(--token-gray-100);
+  --token-accent-primary: var(--token-violet-500);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontFamily":"Inter","fontSize":32,"fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontFamily":"Inter","fontSize":16,"fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontFamily":"Inter","fontSize":13,"fontWeight":500,"lineHeightPx":18};
+  --token-heading-h1: {"fontFamily":"Inter","fontSize":32,"fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontFamily":"Inter","fontSize":16,"fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontFamily":"Inter","fontSize":13,"fontWeight":500,"lineHeightPx":18};
+  --token-fill-primary: #3D94F2;
+  --token-fill-muted: #D6D9DE;
+}
+
+[data-theme="dark"]
+{
+  --token-gray-100: #111111;
+  --token-gray-200: #191919;
+  --token-gray-300: #222222;
+  --token-violet-500: #7C3AED;
+  --token-rose-500: #E11D48;
+  --token-foreground-default: var(--token-gray-100);
+  --token-background-canvas: var(--token-gray-300);
+  --token-accent-primary: var(--token-rose-500);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontFamily":"Inter","fontSize":32,"fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontFamily":"Inter","fontSize":16,"fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontFamily":"Inter","fontSize":13,"fontWeight":500,"lineHeightPx":18};
+}
+
+[data-theme="light"]
+{
+  --token-gray-100: #FCFCFC;
+  --token-gray-200: #F9F9F9;
+  --token-gray-300: #F0F0F0;
+  --token-violet-500: #6366F1;
+  --token-rose-500: #F43F5E;
+  --token-foreground-default: var(--token-gray-300);
+  --token-background-canvas: var(--token-gray-100);
+  --token-accent-primary: var(--token-violet-500);
+  --token-spacing-8: 8;
+  --token-spacing-12: 12;
+  --token-spacing-24: 24;
+  --token-heading-h1: {"fontFamily":"Inter","fontSize":32,"fontWeight":600,"lineHeightPx":38};
+  --token-body-regular: {"fontFamily":"Inter","fontSize":16,"fontWeight":400,"lineHeightPx":24};
+  --token-label-medium: {"fontFamily":"Inter","fontSize":13,"fontWeight":500,"lineHeightPx":18};
+}
