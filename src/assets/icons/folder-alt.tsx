@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const FolderAlt = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3 17q0 3 3 3h12q3 0 3-3v-2H3z" /><path fill="#25314c" d="M18 7h-5l-3-3H6Q3 4 3 7v8h18v-5q0-3-3-3" opacity={0.4} /></svg>;
+
+const FolderAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 6.25h-4.689l-2.78-2.78a.75.75 0 0 0-.53-.22h-4c-2.418 0-3.75 1.332-3.75 3.75v10c0 2.418 1.332 3.75 3.75 3.75h12c2.418 0 3.75-1.332 3.75-3.75v-7C21.75 7.582 20.418 6.25 18 6.25M6 4.75h3.689l2.78 2.78c.141.141.331.22.53.22h5c1.577 0 2.25.673 2.25 2.25v4.25h-16.5V7C3.75 5.423 4.423 4.75 6 4.75m12 14.5H6c-1.577 0-2.25-.673-2.25-2.25v-1.25h16.5V17c0 1.577-.673 2.25-2.25 2.25" /></svg>;
+
 export { FolderAlt };

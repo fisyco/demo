@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const ArrowsCompress = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M14 11a.999.999 0 0 1-.707-1.707l7-7a.999.999 0 1 1 1.414 1.414l-7 7A1 1 0 0 1 14 11M3 22a.999.999 0 0 1-.707-1.707l7-7a.999.999 0 1 1 1.414 1.414l-7 7A1 1 0 0 1 3 22" opacity={0.4} /><path fill="#25314c" d="M20 11h-6a1 1 0 0 1-1-1V4a1 1 0 1 1 2 0v5h5a1 1 0 1 1 0 2M10 21a1 1 0 0 1-1-1v-5H4a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1" /></svg>;
+
+const ArrowsCompress = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m21.53 3.53-5.72 5.72H20a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75V4a.75.75 0 0 1 1.5 0v4.189l5.72-5.72a.75.75 0 1 1 1.06 1.061m-11.243 9.778A.8.8 0 0 0 10 13.25H4a.75.75 0 0 0 0 1.5h4.189l-5.72 5.72a.75.75 0 0 0 1.06 1.061l5.72-5.72V20a.75.75 0 0 0 1.5 0v-6a.75.75 0 0 0-.462-.692" /></svg>;
+
 export { ArrowsCompress };

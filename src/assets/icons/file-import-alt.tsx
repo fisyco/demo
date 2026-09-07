@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const FileImportAlt = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M15 9q-3 0-3-3V3H6Q3 3 3 6v12q0 3 3 3h9q3 0 3-3V9z" opacity={0.4} /><path fill="#25314c" d="M15 9h3l-6-6v3q0 3 3 3M22 15.25h-7.189l.72-.72a.75.75 0 1 0-1.06-1.061l-2 2a.75.75 0 0 0-.163.817.8.8 0 0 0 .162.244l2 2a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061l-.72-.72H22a.75.75 0 0 0 0-1.499" /></svg>;
+
+const FileImportAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16.854 19.557c-.341.466-.947.693-1.854.693H6c-1.577 0-2.25-.673-2.25-2.25V6c0-1.577.673-2.25 2.25-2.25h5.25V6c0 2.418 1.332 3.75 3.75 3.75h2.25V12a.75.75 0 0 0 1.5 0V9a.75.75 0 0 0-.22-.53l-6-6a.75.75 0 0 0-.53-.22H6C3.582 2.25 2.25 3.582 2.25 6v12c0 2.418 1.332 3.75 3.75 3.75h9c1.399 0 2.43-.439 3.065-1.307a.75.75 0 0 0-1.211-.886M12.75 6V4.811l3.439 3.439H15c-1.577 0-2.25-.673-2.25-2.25m10 10a.75.75 0 0 1-.75.75h-7.189l.72.72a.75.75 0 0 1-1.06 1.061l-2-2a.75.75 0 0 1-.162-.817.8.8 0 0 1 .162-.244l2-2a.75.75 0 0 1 1.061 1.061l-.72.72H22a.75.75 0 0 1 .75.749" /></svg>;
+
 export { FileImportAlt };

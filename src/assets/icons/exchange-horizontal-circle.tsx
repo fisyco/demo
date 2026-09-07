@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const ExchangeHorizontalCircle = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity={0.4} /><path fill="#25314c" d="M14 17.25a.75.75 0 0 1-.53-1.281l1.72-1.72H9a.75.75 0 0 1 0-1.5h8a.75.75 0 0 1 .53 1.28l-3 3a.74.74 0 0 1-.53.221m1.75-6.75a.75.75 0 0 0-.75-.75H8.811l1.72-1.72A.75.75 0 1 0 9.47 6.969l-3 3a.75.75 0 0 0 .53 1.28h8a.75.75 0 0 0 .75-.749" /></svg>;
+
+const ExchangeHorizontalCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.693 13.213a.75.75 0 0 1-.163.817l-3 3a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l1.72-1.72H9a.75.75 0 0 1 0-1.5h8a.75.75 0 0 1 .693.464M15.75 10.5a.75.75 0 0 0-.75-.75H8.811l1.72-1.72A.75.75 0 0 0 9.47 6.969l-3 3a.75.75 0 0 0 .53 1.28h8a.75.75 0 0 0 .75-.749m7 1.5c0 5.928-4.822 10.75-10.75 10.75S1.25 17.928 1.25 12 6.072 1.25 12 1.25 22.75 6.072 22.75 12m-1.5 0c0-5.101-4.149-9.25-9.25-9.25S2.75 6.899 2.75 12s4.149 9.25 9.25 9.25 9.25-4.149 9.25-9.25" /></svg>;
+
 export { ExchangeHorizontalCircle };

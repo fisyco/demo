@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const ArrowTurnDownLeft = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 15H3a1 1 0 1 1 0-2h15c1.103 0 2-.897 2-2V6a1 1 0 1 1 2 0v5c0 2.206-1.794 4-4 4" opacity={0.4} /><path fill="#25314c" d="M7 19a1 1 0 0 1-.707-.293l-4-4a1 1 0 0 1 0-1.414l4-4a.999.999 0 1 1 1.414 1.414L4.414 14l3.293 3.293A.999.999 0 0 1 7 19" /></svg>;
+
+const ArrowTurnDownLeft = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.75 6v5A3.755 3.755 0 0 1 18 14.75H4.811l2.72 2.72a.75.75 0 0 1-1.06 1.061l-4-4a.75.75 0 0 1-.162-.817.8.8 0 0 1 .162-.244l4-4a.75.75 0 0 1 1.061 1.061l-2.72 2.72H18c1.24 0 2.25-1.009 2.25-2.25v-5A.75.75 0 0 1 21.75 6" /></svg>;
+
 export { ArrowTurnDownLeft };

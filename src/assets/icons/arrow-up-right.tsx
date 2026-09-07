@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const ArrowUpRight = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19 16a1 1 0 0 1-1-1V6H9a1 1 0 1 1 0-2h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1" /><path fill="#25314c" d="M6 19a.999.999 0 0 1-.707-1.707l13-13a.999.999 0 1 1 1.414 1.414l-13 13A1 1 0 0 1 6 19" opacity={0.4} /></svg>;
+
+const ArrowUpRight = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19.75 5v10a.75.75 0 0 1-1.5 0V6.811L6.53 18.531a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061L17.19 5.75H9a.75.75 0 0 1 0-1.5h10a.75.75 0 0 1 .75.75" /></svg>;
+
 export { ArrowUpRight };
