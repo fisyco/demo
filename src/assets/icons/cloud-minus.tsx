@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const CloudMinus = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M13.792 7.621A6.5 6.5 0 1 0 9.5 19H16c2.76 0 5-2.24 5-5s-2.24-5-5-5c-.33 0-.65.03-.97.09a6.5 6.5 0 0 0-1.238-1.469" opacity={0.4} /><path fill="#25314c" d="M14 14.25h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5" /></svg>;
+
+const CloudMinus = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16 8.25q-.308 0-.608.031A7.24 7.24 0 0 0 9.5 5.251c-3.998 0-7.25 3.252-7.25 7.25s3.252 7.25 7.25 7.25H16a5.756 5.756 0 0 0 5.75-5.75A5.757 5.757 0 0 0 16 8.25m0 10H9.5a5.756 5.756 0 0 1-5.75-5.75A5.756 5.756 0 0 1 9.5 6.75c1.398 0 2.747.509 3.796 1.434.428.378.797.815 1.097 1.3a.75.75 0 0 0 .776.343A4.4 4.4 0 0 1 16 9.75 4.254 4.254 0 0 1 20.25 14 4.254 4.254 0 0 1 16 18.25m-1.25-4.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75" /></svg>;
+
 export { CloudMinus };

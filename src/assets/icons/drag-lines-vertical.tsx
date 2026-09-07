@@ -1,3 +1,6 @@
-<svg width="7" height="17" viewBox="0 0 7 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 0.5V16.5C1 16.776 0.776 17 0.5 17C0.224 17 0 16.776 0 16.5V0.5C0 0.224 0.224 0 0.5 0C0.776 0 1 0.224 1 0.5ZM6.5 0C6.224 0 6 0.224 6 0.5V16.5C6 16.776 6.224 17 6.5 17C6.776 17 7 16.776 7 16.5V0.5C7 0.224 6.776 0 6.5 0Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+
+const DragLinesVertical = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 8 18" {...props}><path fill="#25314c" d="M.771 18A.77.77 0 0 1 0 17.229V.77a.772.772 0 0 1 1.543 0V17.23A.77.77 0 0 1 .77 18m6.943-.771V.77a.772.772 0 0 0-1.543 0V17.23a.772.772 0 0 0 1.543 0" /></svg>;
+
+export { DragLinesVertical };

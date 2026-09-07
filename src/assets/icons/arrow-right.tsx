@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const ArrowRight = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 13H3a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2" opacity={0.4} /><path fill="#25314c" d="M14 20a.999.999 0 0 1-.707-1.707L19.586 12l-6.293-6.293a.999.999 0 1 1 1.414-1.414l7 7a1 1 0 0 1 0 1.414l-7 7A1 1 0 0 1 14 20" /></svg>;
+
+const ArrowRight = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.692 12.287a.8.8 0 0 1-.162.244l-7 7a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l5.72-5.72H3a.75.75 0 0 1 0-1.5h16.189l-5.72-5.72A.75.75 0 0 1 14.53 4.47l7 7a.75.75 0 0 1 .162.818" /></svg>;
+
 export { ArrowRight };

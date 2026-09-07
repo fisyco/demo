@@ -1,3 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18 3.5H6C3.71 3.5 2.5 4.71 2.5 7V17C2.5 19.29 3.71 20.5 6 20.5H18C20.29 20.5 21.5 19.29 21.5 17V7C21.5 4.71 20.29 3.5 18 3.5ZM6 4.5H18C19.729 4.5 20.5 5.271 20.5 7V9.5H3.5V7C3.5 5.271 4.271 4.5 6 4.5ZM14.5 10.5V19.5H9.5V10.5H14.5ZM3.5 17V10.5H8.5V19.5H6C4.271 19.5 3.5 18.729 3.5 17ZM18 19.5H15.5V10.5H20.5V17C20.5 18.729 19.729 19.5 18 19.5Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+
+const LayoutWeb11 = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 3.25H6C3.582 3.25 2.25 4.582 2.25 7v10c0 2.418 1.332 3.75 3.75 3.75h12c2.418 0 3.75-1.332 3.75-3.75V7c0-2.418-1.332-3.75-3.75-3.75M6 4.75h12c1.577 0 2.25.673 2.25 2.25v2.25H3.75V7c0-1.577.673-2.25 2.25-2.25m8.25 6v8.5h-4.5v-8.5zM3.75 17v-6.25h4.5v8.5H6c-1.577 0-2.25-.673-2.25-2.25M18 19.25h-2.25v-8.5h4.5V17c0 1.577-.673 2.25-2.25 2.25" /></svg>;
+
+export { LayoutWeb11 };

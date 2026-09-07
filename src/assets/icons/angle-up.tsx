@@ -1,4 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const AngleUp = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19 16a1 1 0 0 1-.707-.293L12 9.414l-6.293 6.293a.999.999 0 1 1-1.414-1.414l7-7a1 1 0 0 1 1.414 0l7 7A.999.999 0 0 1 19 16" /></svg>;
+
+const AngleUp = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19 15.75a.74.74 0 0 1-.53-.22L12 9.06l-6.47 6.47A.75.75 0 1 1 4.47 14.47l7-7a.75.75 0 0 1 1.061 0l7 7A.75.75 0 0 1 19 15.75" /></svg>;
+
 export { AngleUp };
