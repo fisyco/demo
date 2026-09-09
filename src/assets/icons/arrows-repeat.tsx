@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const ArrowsRepeat = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.75 12v3A3.755 3.755 0 0 1 18 18.75H4.811l1.72 1.72a.75.75 0 0 1-1.06 1.061l-3-3a.75.75 0 0 1-.162-.817.8.8 0 0 1 .162-.244l3-3a.75.75 0 0 1 1.061 1.061l-1.72 1.72H18c1.24 0 2.25-1.009 2.25-2.25v-3a.75.75 0 0 1 1.5-.001M3 12.75a.75.75 0 0 0 .75-.75V9c0-1.241 1.01-2.25 2.25-2.25h13.189l-1.72 1.72a.75.75 0 0 0 1.06 1.061l3-3a.75.75 0 0 0 .162-.817.8.8 0 0 0-.162-.244l-3-3a.75.75 0 0 0-1.061 1.061l1.72 1.72H6a3.755 3.755 0 0 0-3.75 3.75v3a.75.75 0 0 0 .75.749" /></svg>;
+const ArrowsRepeat = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M2.077 18.382a1 1 0 0 1 .217-1.09l2.999-2.999a.999.999 0 1 1 1.414 1.414L5.414 17H18c1.103 0 2-.897 2-2v-3a1 1 0 1 1 2 0v3c0 2.206-1.794 4-4 4H5.414l1.293 1.293a.999.999 0 1 1-1.414 1.414l-2.999-2.999a1 1 0 0 1-.217-.326" opacity=".4" /><path fill="#25314c" d="M6 5h12.586l-1.293-1.293a.999.999 0 1 1 1.414-1.414l3 2.999a1 1 0 0 1 0 1.416l-3 3a.997.997 0 0 1-1.414 0 1 1 0 0 1 0-1.415L18.586 7H6c-1.103 0-2 .897-2 2v3a1 1 0 1 1-2 0V9c0-2.206 1.794-4 4-4" /></svg>;
 
 export { ArrowsRepeat };

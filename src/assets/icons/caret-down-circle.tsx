@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const CaretDownCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 1.25C6.072 1.25 1.25 6.072 1.25 12S6.072 22.75 12 22.75 22.75 17.928 22.75 12 17.928 1.25 12 1.25m0 20c-5.101 0-9.25-4.149-9.25-9.25S6.899 2.75 12 2.75s9.25 4.149 9.25 9.25-4.149 9.25-9.25 9.25m3.1-12.167H8.901c-.65 0-1.224.365-1.497.954a1.63 1.63 0 0 0 .234 1.748l2.92 3.463a1.886 1.886 0 0 0 2.882 0l2.92-3.462a1.63 1.63 0 0 0 .234-1.749 1.63 1.63 0 0 0-1.496-.954m.115 1.735-2.92 3.462a.38.38 0 0 1-.295.136.38.38 0 0 1-.295-.136l-2.92-3.463a.13.13 0 0 1-.021-.149q.04-.085.137-.085h6.197q.096 0 .137.085c.037.082-.006.133-.02.15" /></svg>;
+const CaretDownCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="m12.868 14.764 2.92-3.462c.491-.582.074-1.469-.689-1.469H8.901c-.764 0-1.18.886-.69 1.469l2.921 3.462a1.137 1.137 0 0 0 1.736 0" /></svg>;
 
 export { CaretDownCircle };

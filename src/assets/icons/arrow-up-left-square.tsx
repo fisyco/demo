@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const ArrowUpLeftSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.625 2.25H6.375c-2.66 0-4.125 1.465-4.125 4.125v11.25c0 2.66 1.465 4.125 4.125 4.125h11.25c2.66 0 4.125-1.465 4.125-4.125V6.375c0-2.66-1.465-4.125-4.125-4.125m2.625 15.375c0 1.84-.785 2.625-2.625 2.625H6.375c-1.84 0-2.625-.785-2.625-2.625V6.375c0-1.84.785-2.625 2.625-2.625h11.25c1.84 0 2.625.785 2.625 2.625zm-4.72-3.155a.75.75 0 0 1-1.06 1.061l-4.72-4.72V13a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .751-.751h4a.75.75 0 0 1 0 1.5h-2.189z" /></svg>;
+const ArrowUpLeftSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity=".4" /><path fill="#25314c" d="m15.53 14.475-4.72-4.72H13a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0-.751.751v4a.75.75 0 0 0 1.5 0v-2.19l4.72 4.721a.75.75 0 0 0 1.06 0 .75.75 0 0 0 .001-1.062" /></svg>;
 
 export { ArrowUpLeftSquare };

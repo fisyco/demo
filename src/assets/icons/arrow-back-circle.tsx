@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const ArrowBackCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.25 12.75c0 1.654-1.346 3-3 3H9a.75.75 0 0 1 0-1.5h5.25c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5H9.311l.22.22a.75.75 0 0 1-1.06 1.061l-1.5-1.5a.75.75 0 0 1-.162-.817.8.8 0 0 1 .162-.244l1.5-1.5a.75.75 0 1 1 1.061 1.061l-.22.22h4.939a3 3 0 0 1 2.999 2.999m5.5-.75c0 5.928-4.822 10.75-10.75 10.75S1.25 17.928 1.25 12 6.072 1.25 12 1.25 22.75 6.072 22.75 12m-1.5 0c0-5.101-4.149-9.25-9.25-9.25S2.75 6.899 2.75 12s4.149 9.25 9.25 9.25 9.25-4.149 9.25-9.25" /></svg>;
+const ArrowBackCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="M14.25 9.75H9.311l.22-.22a.75.75 0 1 0-1.06-1.061l-1.5 1.5a.75.75 0 0 0-.163.817.8.8 0 0 0 .162.244l1.5 1.5a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061l-.22-.22h4.94c.826 0 1.5.673 1.5 1.5s-.674 1.5-1.5 1.5H9a.75.75 0 0 0 0 1.5h5.25c1.654 0 3-1.346 3-3a3.003 3.003 0 0 0-3-2.999" /></svg>;
 
 export { ArrowBackCircle };
