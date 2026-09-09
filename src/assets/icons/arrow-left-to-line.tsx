@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const ArrowLeftToLine = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.75 12a.75.75 0 0 1-.75.75H8.811l3.72 3.72a.75.75 0 0 1-1.06 1.061l-5-5a.75.75 0 0 1-.162-.817.8.8 0 0 1 .162-.244l5-5a.75.75 0 0 1 1.061 1.061l-3.72 3.72H21a.75.75 0 0 1 .75.749M3 5.25a.75.75 0 0 0-.75.75v12a.75.75 0 0 0 1.5 0V6A.75.75 0 0 0 3 5.25" /></svg>;
+const ArrowLeftToLine = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 13H7a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2" opacity=".4" /><path fill="#25314c" d="M12 18a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 0-1.414l5-5a.999.999 0 1 1 1.414 1.414L8.414 12l4.293 4.293A.999.999 0 0 1 12 18M3 19a1 1 0 0 1-1-1V6a1 1 0 1 1 2 0v12a1 1 0 0 1-1 1" /></svg>;
 
 export { ArrowLeftToLine };

@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const CaretLeftCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 1.25C6.072 1.25 1.25 6.072 1.25 12S6.072 22.75 12 22.75 22.75 17.928 22.75 12 17.928 1.25 12 1.25m0 20c-5.101 0-9.25-4.149-9.25-9.25S6.899 2.75 12 2.75s9.25 4.149 9.25 9.25-4.149 9.25-9.25 9.25m1.964-13.846a1.63 1.63 0 0 0-1.749.234l-3.462 2.919a1.88 1.88 0 0 0-.67 1.442c0 .558.244 1.083.67 1.44l3.462 2.921a1.63 1.63 0 0 0 1.75.235c.587-.273.952-.847.952-1.497V8.9c0-.65-.365-1.223-.953-1.497m-.547 7.695a.14.14 0 0 1-.085.137c-.084.04-.133-.006-.15-.02L9.72 12.294a.383.383 0 0 1 0-.589l3.462-2.92c.013-.01.042-.035.088-.035q.027 0 .062.015.085.04.085.137z" /></svg>;
+const CaretLeftCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="m9.236 12.868 3.462 2.92c.582.491 1.469.074 1.469-.689V8.901c0-.764-.886-1.18-1.47-.69l-3.461 2.921a1.137 1.137 0 0 0 0 1.736" /></svg>;
 
 export { CaretLeftCircle };

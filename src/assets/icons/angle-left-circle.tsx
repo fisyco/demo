@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const AngleLeftCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M13.53 9.53 11.06 12l2.47 2.47a.75.75 0 0 1-1.06 1.061l-3-3a.75.75 0 0 1 0-1.061l3-3a.75.75 0 1 1 1.06 1.06M22.75 12c0 5.928-4.822 10.75-10.75 10.75S1.25 17.928 1.25 12 6.072 1.25 12 1.25 22.75 6.072 22.75 12m-1.5 0c0-5.101-4.149-9.25-9.25-9.25S2.75 6.899 2.75 12s4.149 9.25 9.25 9.25 9.25-4.149 9.25-9.25" /></svg>;
+const AngleLeftCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="M13 15.75a.74.74 0 0 1-.53-.22l-3-3a.75.75 0 0 1 0-1.061l3-3a.75.75 0 1 1 1.061 1.061L11.061 12l2.47 2.47A.75.75 0 0 1 13 15.75" /></svg>;
 
 export { AngleLeftCircle };

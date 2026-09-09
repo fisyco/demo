@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const AnglesLeft = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 19.75a.74.74 0 0 1-.53-.22l-7-7a.75.75 0 0 1 0-1.061l7-7a.75.75 0 1 1 1.061 1.061L6.061 12l6.47 6.47A.75.75 0 0 1 12 19.75m7.53-.22a.75.75 0 0 0 0-1.061l-6.47-6.47 6.47-6.47a.75.75 0 1 0-1.061-1.061l-7 7a.75.75 0 0 0 0 1.061l7 7a.75.75 0 0 0 1.061.001" /></svg>;
+const AnglesLeft = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 20a1 1 0 0 1-.707-.293l-7-7a1 1 0 0 1 0-1.414l7-7a.999.999 0 1 1 1.414 1.414L6.414 12l6.293 6.293A.999.999 0 0 1 12 20" /><path fill="#25314c" d="M19 20a1 1 0 0 1-.707-.293l-7-7a1 1 0 0 1 0-1.414l7-7a.999.999 0 1 1 1.414 1.414L13.414 12l6.293 6.293A.999.999 0 0 1 19 20" opacity=".4" /></svg>;
 
 export { AnglesLeft };

@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const ExchangeVerticalSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.625 2.25H6.375c-2.66 0-4.125 1.465-4.125 4.125v11.25c0 2.66 1.465 4.125 4.125 4.125h11.25c2.66 0 4.125-1.465 4.125-4.125V6.375c0-2.66-1.465-4.125-4.125-4.125m2.625 15.375c0 1.84-.785 2.625-2.625 2.625H6.375c-1.84 0-2.625-.785-2.625-2.625V6.375c0-1.84.785-2.625 2.625-2.625h11.25c1.84 0 2.625.785 2.625 2.625zm-3.67-7.954a.75.75 0 1 1-1.061 1.06l-1.42-1.418v5.389a.75.75 0 0 1-1.5 0v-7.2a.75.75 0 0 1 1.28-.53zm-5.18-.369v7.2a.75.75 0 0 1-1.28.53l-2.7-2.7a.75.75 0 1 1 1.061-1.061l1.42 1.42V9.3a.75.75 0 1 1 1.499.001" /></svg>;
+const ExchangeVerticalSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity=".4" /><path fill="#25314c" d="M13.35 15.452a.75.75 0 0 1-.75-.75v-7.2a.75.75 0 0 1 1.28-.53l2.7 2.7a.75.75 0 1 1-1.06 1.06L14.1 9.315v5.389a.75.75 0 0 1-.75.749m-2.412 1.743a.75.75 0 0 0 .463-.693v-7.2a.75.75 0 0 0-1.5 0v5.39l-1.42-1.42a.75.75 0 0 0-1.061 1.061l2.7 2.7a.75.75 0 0 0 .818.162" /></svg>;
 
 export { ExchangeVerticalSquare };
